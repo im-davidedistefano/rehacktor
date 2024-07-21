@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="19px" height="18px" viewBox="0 0 19 18" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>icons8-tiktok</title>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="icons8-tiktok" transform="translate(0.014558, 0.000000)" fill="#222222" fill-rule="nonzero">
+            <path d="M3,0 C1.3550302,0 0,1.3550302 0,3 L0,15 C0,16.64497 1.3550302,18 3,18 L15,18 C16.64497,18 18,16.64497 18,15 L18,3 C18,1.3550302 16.64497,0 15,0 L3,0 Z M9,4 L11,4 C11,5.005 12.471,6 13,6 L13,8 C12.395,8 11.668,7.734156 11,7.285156 L11,11 C11,12.654 9.654,14 8,14 C6.346,14 5,12.654 5,11 C5,9.346 6.346,8 8,8 L8,10 C7.448,10 7,10.449 7,11 C7,11.551 7.448,12 8,12 C8.552,12 9,11.551 9,11 L9,4 Z" id="Shape"></path>
+        </g>
+    </g>
+</svg>

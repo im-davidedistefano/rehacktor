@@ -1,0 +1,108 @@
+html {
+  scroll-behavior: smooth;
+  overflow-x: hidden;
+}
+
+body {
+  background-color: $grey;
+  color: $black;
+  font-size: $base-font-size;
+  font-family: $base-font-family;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  overflow-x: hidden;
+  main {
+    max-width: 100rem;
+    margin: 0 auto;
+    section {
+      background-color: $white;
+      &:not(:last-child) {
+        margin-bottom: 18px;
+      }
+      &:first-of-type {
+        margin-top: 18px;
+      }
+    }
+  }
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+  font-weight: 700;
+}
+
+.text-primary {
+  color: $primary !important;
+}
+
+.text-grey {
+  color: $darkgrey;
+}
+
+.bg-dark {
+  background-color: $black !important;
+ }
+
+.bg-primary {
+  background-color: $primary !important;
+}
+
+.bg-secondary {
+  background-color: $secondary !important;
+}
+
+.btn-primary {
+  background-color: $primary;
+  &:hover {
+    background-color: $black;
+  }
+}
+
+.btn-secondary {
+  background-color: $secondary;
+  &:hover {
+    background-color: $black;
+  }
+}
+
+.privatecontent {
+  background: rgb(255, 255, 255);
+  background: linear-gradient(0deg, rgb(255, 255, 255) 50%, rgba(0, 212, 255, 0) 100%);
+  width: 100%;
+  z-index: 99999;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  height: 5%;
+  padding-bottom: 15vw;
+
+  @media (min-width: 768px) {
+    height: 25%;
+    padding-bottom: 7vw;
+  }
+}
+
+.loadMore {
+  background-color: $primary;
+  color: $white;
+  text-transform: uppercase;
+  padding: 8px 24px;
+  font-weight: bold;
+}
+
+.fav {
+  transition: all ease-in-out .3s;
+  &.active {
+    g {
+      fill: #d4d9c7;
+      stroke: #d4d9c7;
+    }
+  }
+}

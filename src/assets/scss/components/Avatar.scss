@@ -1,0 +1,19 @@
+.propic {
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+
+  @media (min-width: 768px) {
+    width: 180px;
+    height: 180px;
+  }
+}
+
+.uploadImg {
+  position: absolute;
+  top: 0;
+  height: 100%;
+  opacity: 0;
+  cursor: pointer;
+}

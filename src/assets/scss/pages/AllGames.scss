@@ -1,0 +1,8 @@
+.game-list {
+  transition: filter ease-in-out .4s;
+
+  &.searchIsActive {
+    filter: blur(7px);
+    pointer-events: none;
+  }
+}

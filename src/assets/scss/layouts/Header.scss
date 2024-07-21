@@ -1,0 +1,62 @@
+@import "./../variables";
+header {
+  position: sticky;
+  top: 0;
+  left: 0;
+  z-index: 999;
+  background-color: $white;
+  border-bottom: solid 1px $grey;
+
+  .logo img {
+    width: 50px;
+  }
+
+  .propic {
+    width: 48px;
+    height: 48px;
+  }
+
+  .categories-swiper {
+    overflow-x: hidden;
+    .swiper-wrapper {
+      .singleCategory {
+        border: solid 1px $black;
+        border-radius: 50px;
+        color: $black;
+        text-align: center;
+        text-decoration: none;
+        padding: 4px 8px;
+        font-size: 14px;
+        text-overflow: ellipsis;
+        overflow: hidden;
+        white-space: nowrap;
+
+        &:hover {
+          background-color: $black;
+          color: $white;
+        }
+      }
+    }
+
+    .swiper-navigation {
+      position: relative;
+      z-index: 9999;
+      margin-top: 40px;
+      height: 14px;
+      display: flex;
+      width: 90px;
+
+      .swiper-button-prev,
+      .swiper-button-next {
+        color: #222;
+        width: 24px;
+        height: 24px;
+        top: 0;
+        left: inherit;
+        &:after {
+          font-size: 14px;
+        }
+      }
+    }
+  }
+}

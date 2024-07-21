@@ -1,0 +1,24 @@
+.deleteButton {
+  border-radius: 50%;
+  border: none;
+  background-color: white;
+  width: 36px;
+  height: 36px;
+  position: absolute;
+  right: 30px;
+  top: 20px;
+  z-index: 99;
+  transition: background-color ease-in-out .3s;
+
+  svg path {
+    transition: fill ease-in-out .3s;
+  }
+
+  &:hover {
+    background-color: #222;
+
+    svg path{
+      fill: white;
+    }
+  }
+}

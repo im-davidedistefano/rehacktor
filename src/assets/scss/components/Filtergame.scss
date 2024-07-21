@@ -1,0 +1,39 @@
+@import "./../variables";
+
+.categoryFilters {
+  @media (min-width: 768px) {
+    position: sticky;
+    top: 6vw;
+    left: 0;
+  }
+  background-color: $grey;
+  height: fit-content;
+  .innerCategories {
+    height: 325px;
+    overflow-y: scroll;
+    position: relative;
+
+    .categoriesTitle {
+      position: sticky;
+      top: 0;
+      left: 0;
+      background-color: $grey;
+      width: 100%;
+      padding: 16px 0 8px;
+    }
+
+    li {
+      list-style-type: none;
+      padding: 4px 0;
+
+      a {
+        color: $black;
+        text-decoration: none;
+        transition: color ease-in-out .3s;
+        &:hover {
+          color: $secondary;
+        }
+      }
+    }
+  }
+}
