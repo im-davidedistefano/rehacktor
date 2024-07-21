@@ -43,7 +43,6 @@ export default function Register() {
     });
 
     const onSubmit = async ({ username, name, email, password }) => {
-        console.log(username, name, email, password)
         try {
             const { error } = await supabase.auth.signUp({
                 email,

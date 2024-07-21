@@ -18,7 +18,7 @@ L'intera UI è stata sviluppata da zero (design reference: [ABLETON](https://www
 * Single Game - Pagina con i dettagli di un singolo gioco, con possibilità di aggiungere ai preferiti e live chat
 * Login - Pagina di login utente
 * Register - Pagina di registrazione utente
-* Profilo - Pagina con i dettagli dell'utente e giochi preferiti (con la possibilità di visualizzarli e cancellari)
+* Profile - Pagina con i dettagli dell'utente e giochi preferiti (con la possibilità di visualizzarli e cancellari)
 * Settings - Pagina impostazioni utente, dove quest'ultimo può aggiornare i propri dati
 
 ## API + Interazione Utente
@@ -29,8 +29,8 @@ L'intera UI è stata sviluppata da zero (design reference: [ABLETON](https://www
     * Registrazione con email valida in piattaforma
 * Utente autenticato
     * Login con email valida in piattaforma
-    * Visita dettaglio singolo videogiocho
-    * Creazione di lista videogiochi preferiti
+    * Visita dettaglio singolo videogioco
+    * Creazione di wishlist videogiochi
     * Realtime chat con altri utenti autenticati connessi
 
 ## Context API
@@ -38,7 +38,7 @@ L'intera UI è stata sviluppata da zero (design reference: [ABLETON](https://www
 * Dettaglio profilo utente autenticato
 
 ## Zustand global state management
-* Lista favoriti
+* Wishlist
 
 ## Distribuzione
 * [Rehacktor]()

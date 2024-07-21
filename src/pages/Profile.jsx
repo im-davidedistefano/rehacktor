@@ -34,7 +34,6 @@ function Profile() {
     };
 
     const remove = async (id) => {
-        console.log(id);
         const { error } = await supabase
             .from('favourites')
             .delete()
