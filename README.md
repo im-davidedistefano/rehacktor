@@ -42,20 +42,24 @@
 
 ## 🧭 Pages
 
-| Page         | Description                                                                 |
-|--------------|-----------------------------------------------------------------------------|
-| **Homepage** | Features "Game of the Month" + top-rated games                             |
-| **All Games**| Full game list with filtering options                                       |
-| **Category** | Lists all games by selected category/genre                                  |
-| **Single Game** | Game detail page, add to favorites, access live chat                   |
-| **Login**    | Login page for existing users                                               |
-| **Register** | User registration with email                                                |
-| **Profile**  | User profile with wishlist (view and remove games)                          |
-| **Settings** | Update personal user information                                            |
+| Page            | Description                                                              |
+|-----------------|--------------------------------------------------------------------------|
+| **Homepage**    | Features "Game of the Month" + top-rated games                           |
+| **All Games**   | Full game list with filtering options                                    |
+| **Category**    | Lists all games by selected category/genre                               |
+| **Single Game** | Game detail page, add to favorites, access live chat                     |
+| **Login**       | Login page for existing users                                            |
+| **Register**    | User registration with email                                             |
+| **Profile**     | User profile with wishlist (view and remove games)                       |
+| **Settings**    | Update personal user information                                         |
 
 ---
 
 ## 🌐 Deployment
-- To run the application, please type npm run dev on terminal
 
----
+### Requirements
+- **Node.js** version **18 or higher**
+
+### Installation & Run
+- Install dependencies: _npm install_
+- Start the development server: _npm run dev_
