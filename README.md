@@ -3,7 +3,7 @@
 ## 📌 Description
 **Rehacktor** is a video game cataloging web app that allows users to explore, filter, and search for games based on genre or keywords. Registered users can save favorites, chat with other gamers in real-time, and manage their profile.
 
-> UI inspired by [ABLETON](https://www.ableton.com/en/). Built entirely from scratch.
+> UI inspired by [Ableton](https://www.ableton.com/en/). Built entirely from scratch.
 
 ---
 
@@ -57,11 +57,5 @@
 
 ## 🌐 Deployment
 - To run the application, please type npm run dev on terminal
-
----
-
-## 📫 Contact
-Feel free to reach out for feedback or collaboration:  
-**Davide Di Stefano**
 
 ---
